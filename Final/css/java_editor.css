@@ -1,0 +1,55 @@
+body {
+    background-image: url("../image/xingkong .jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+
+#body{
+  height: 1100px;
+    /*color: white;*/
+    width: 1200px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 50px auto;
+}
+
+#body .body_header{
+    height: 50px;
+    width: 1200px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px auto;
+    font-size: 20px;
+    line-height: 50px;
+}
+#body .choose{
+    display: block;
+    /*height: 400px;*/
+    width: 1100px;
+   /* border: 1px solid red;*/
+    margin: 10px auto;
+}
+
+#body .choose li{
+    display: block;
+    /*height: 50px;*/
+    line-height: 30px;
+    /*border: 1px solid black;*/
+    margin-top: 20px;
+}
+#body .choose span{
+    font-size: 20px;
+}
+
+#body .choose p{
+    padding: 5px;
+}
+
+
+.active{
+    position: fixed;
+   /* margin-top:  1px;*/
+   /* margin: 100px auto;*/
+}

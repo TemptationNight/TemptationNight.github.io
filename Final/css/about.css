@@ -1,0 +1,105 @@
+/*#header .center .center_right{
+    border-bottom: 2px solid blue;
+}*/
+
+body {
+    background-image: url("../image/about.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#myself {
+    float: left;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 100px;
+    height: 410px;
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+    border-radius: 10%;
+}
+#myself .project .first {
+    margin-top: 0px;
+}
+
+#myself .project li {
+    border-radius: 10%;
+    background-color: orange;
+    margin-top: 24px;
+    display: block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: sans-serif;
+    transition: all 4s ease;
+}
+#myself .project li:hover{
+    transform:rotateY(360deg);
+}
+#show {
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+    height: 550px;
+    width: 700px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+}
+
+#show ul {
+    position: relative;
+    lin-height: 20px;
+    text-align: center;
+    height: 25px;
+    width: 70px;
+    margin: 10px 20px;
+ /*   background-color: rgba(255, 255, 255, 0.5);*/
+}
+
+#show ul li {
+    display: block;
+    height: 25px;
+    width: 70px;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+    transition:all 4s ease;  /*添加动画**/
+}
+
+
+#show ul li:hover{
+
+    background-color: orange;
+    border-radius: 5%;
+    transform: rotate(360deg);
+}
+/*#show ul li a{
+    display: block;
+    height: 25px;
+    width: 70px;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+
+}*/
+/*
+#show .first {
+    background-color: orange;
+}*/
+
+#show .picture {
+    position: absolute;
+    height: 350px;
+    width: 450px;
+    margin-top: 115px;
+    margin-left: 215px;
+    background-image: url("../image/about.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#show .picture img{
+    height: 100%;
+    width: 100%;
+}

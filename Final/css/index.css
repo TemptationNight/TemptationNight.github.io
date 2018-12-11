@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head{
+    height: 150px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: black;
+    border:  1px solid black;
+}
+
+.head p{
+    float: left;
+    line-height: 150px;
+    font-family: "华文宋体";
+    font-size: 50px;
+    font-style: initial;
+    color: white;
+    display: block;
+    height: 150px;
+    width: 200px;
+    margin-left: 500px;
+    border: 1px solid black;
+
+}
+
+.head .head_picture{
+    float: left;
+    border: 1px solid black;
+    height: 150px;
+    width: 250px;
+    background-image: url("../image/java.gif");
+    margin-left: 30px;
+}
+
+.chose{
+    clear: both;
+    float: left;
+    height: 1000px;
+    width: 150px;
+    border:  1px solid black;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.picture{
+    background-color:white;
+    margin-top: 50px;
+    float: left;
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid white;
+}
+
+.null{
+    clear: both;
+}
+
+.chose .list li{
+    list-style: none;
+    display: block;
+    height: 100px;
+    background-color: black;
+    color: white;
+    line-height: 100px;
+    font-size: 20px;
+    text-align: center;
+}.chose .list li a{
+    color: white;
+ }
+
+.chose .list .li{
+    background-color: red;
+}
+
+.chose .list .span1,.span2{
+    display: block;
+    height: 50px;
+    width: 150px;
+    line-height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.picture .picture1 a{
+    margin: 2px 2px;
+    display: block;
+
+
+
+    float: left;
+    background-image: url("../image/a1.jpeg");
+    height: 520px;
+}
+.picture .picture2 a{
+    margin: 2px 2px;
+
+    display: block;
+    float: left;
+    background-image: url("../image/ai2.jpeg");
+    height: 520px;
+    width: 640px;
+}
+
+
+.picture .picture3 a{
+    margin: 2px 2px;
+    display: block;
+    float: left;
+    clear: both;
+    background-image: url("../image/ai1.jpg");
+    height: 470px;
+    width: 640px;
+}
+
+.picture .picture4 a{
+    margin: 2px 2px;
+    display: block;
+    background-image: url("../image/a2.jpeg");
+    float: left;
+    height: 470px;
+    width: 350px;
+}
+
+.picture a:hover{
+    border-radius: 5%;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    line-height: 100px;
+    color: white;
+    font-family: 华文宋体;
+    font-size: 30px;
+    margin-top: 40px;
+    background-color: black;
+    text-align: center;
+}
+

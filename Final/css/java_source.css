@@ -1,0 +1,72 @@
+#introduction{
+    font-size: 20px;
+    width: 1200px;
+    margin: 50px auto;
+    line-height: 40px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.3);
+   /* border: 1px solid black;*/
+}
+
+body {
+    background-image: url("../image/sea.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+#picture{
+    background-color: rgba(255,255,255,0.3);
+    width: 1200px;
+    height: 290px;
+    margin: 50px auto;
+    text-align: center;
+   /* line-height: 300px;*/
+   /* border: 1px solid red;*/
+}
+#picture img{
+    height: 200px;
+    width: 300px;
+    margin-left: 30px;
+}
+/*
+#picture p{
+    height: 50px;
+    color: black;
+    margin: 10px auto;
+}*/
+
+#picture .java_father{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 370px;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+  /*  border: 1px solid black;*/
+    float: left;
+
+}
+#picture .java_logo{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+   /* border: 1px solid black;*/
+    float: left;
+}
+#picture .pic{
+    clear: both;
+    height: 200px;
+    width: 1000px;
+    margin: 50px auto;
+    /*border: 1px solid black;*/
+}
+
+
+
+

@@ -1,0 +1,131 @@
+body{
+    background-image: url("../image/technol_introduction.jpg");
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+    background-attachment: fixed;"
+}
+
+#choose{
+    position: fixed;
+
+    height: 300px;
+    width: 70px;
+    /*float: left;*/
+   /* margin-left: 150px;
+    margin-top: 100px;*/
+    /*border: 1px solid black;*/
+    /*float: right;*/
+    margin-top: 190px;
+    margin-left: 100px;
+}
+/*#choose .ul {
+   !* display: block;
+    height: 300px;
+    width: 50px;
+   !* border: 1px solid black;*!
+    margin-left: 150px;
+    margin-top: 100px;*!
+}*/
+#choose .ul li{
+    display: block;
+    width: 70px;
+    height: 50px;
+    border-radius: 5%;
+    margin-top: 10px;
+
+   /* border: 1px solid black;*/
+}
+
+#choose .ul li a{
+    border-radius: 10%;
+    display: block;
+    width: 70px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    line-height: 50px;
+    text-align: center;
+
+}
+#choose .ul li a:hover{
+    color: red;
+}
+#choose .ul li a i{
+    font-size: 15px;
+}
+
+#technique{
+    margin-top: 100px;
+    height: 600px;
+    width: 500px;
+   /* border: 1px solid black;*/
+    border-radius: 10px;
+    float: left;
+    margin-left: 250px;
+}
+#technique hr{
+    background-color: black;
+    width: 450px;
+    height: 5px;
+    margin: 10px auto;
+}
+
+#technique p{
+    padding: 5px;
+    /*height: 50px;*/
+  /*  text-align: left;*/
+    width: 450px;
+    margin: 10px auto;
+    line-height: 50px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 5px;
+    /*border: 1px solid black;*/
+}
+/*#technique p span{
+
+    margin-left: 5px;
+    margin-right: 5px;
+}*/
+#technique .first,#summarize .first{
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+#summarize{
+    border-radius: 10px;
+    margin: 100px;
+    height:600px ;
+    width: 370px;
+   /* border: 1px solid black;*/
+    float: left;
+    margin-left: 50px;
+}
+
+#summarize p{
+    padding: 5px;
+    /*height: 50px;*/
+    width: 320px;
+    margin: 10px auto;
+    line-height: 38px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 5px;
+
+
+}
+#summarize hr{
+    background-color: black;
+    width: 320px;
+    height: 5px;
+    margin: 10px auto;
+}
+
+#footer{
+    clear: both;
+    height: 70px;
+    width: 100%;
+    color: black;
+    line-height: 70px;
+    text-align: center;
+    background-color: rgba(255,255,255,255);
+}

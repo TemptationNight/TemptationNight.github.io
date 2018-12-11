@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../image/java_T.jpg");
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+    background-attachment: fixed;"
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: none;
+}
+
+#body{
+    height: 450px;
+    width: 800px;
+    margin: 80px auto;
+    /*background-color: #fff;*/
+    background: rgba(255,255,255,0.7);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+#body p {
+    display: block;
+    height: 60px;
+    width: 750px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#body .first{
+    margin-top: 20px;
+}
+#body  .span1{
+    font-family: sans-serif;
+    display: block;
+    height: 50px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+#body i{
+    float: left;
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+   /* border: 1px solid blue;*/
+}
+#body .span{
+    font-family: 微软雅黑;
+    font-size: 15px;
+    float: left;
+    height: 40px;
+    width: 670px;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+

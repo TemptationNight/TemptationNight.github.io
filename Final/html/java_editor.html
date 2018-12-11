@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/iconfont1.css">
+    <link rel="stylesheet" href="../css/java_editor.css">
+    <link rel="stylesheet" href="../css/editor.css">
+  <!--  <link rel="stylesheet" href="../JQ/jquery-3.3.1.min.js">-->
+    <title>Title</title>
+</head>
+<body>
+<div id="header">
+    <div class="center">
+        <div class="center_left">
+            <ul class="list">
+                <li><a href="../index.html"><i class="iconfont icon-home "> </i>
+                    <p>home</p></a></li>
+                <li ><a href="java_sourse.html"><i class="iconfont icon-laiyuan "> </i>
+                    <p>origin</p></a></li>
+                <li><a href="java_development.html"><i class="iconfont icon-fazhanlicheng "> </i>
+                    <p>develop</p></a></li>
+                <li class="technology"><a href="java_editor.html"><i class="iconfont icon-insert_tag_field"> </i>
+                    <p>editor</p></a></li>
+                <li><a href="java_technology.html"><i class="iconfont icon-yunjishu "></i>
+                    <p>science</p></a></li>
+                <li><a href="java_artist.html"><i class="iconfont icon-ai-img "> </i>
+                    <p>artist</p></a></li>
+                <li><a href="java_study.html"><i class="iconfont icon-icon "> </i>
+                    <p>study</p></a></li>
+            </ul>
+        </div>
+        <div class="center_right">
+            <a href="login.html"><i class="iconfont icon-yonghu"></i>
+                <p>about</p></a>
+        </div>
+    </div>
+</div>
+
+<div id="body">
+    <p class="body_header"><b>java常用编辑器一览表</b></p>
+    <ul class="choose">
+        <li><i class="iconfont icon-eclipse"></i>&nbsp;&nbsp;<span><b>Eclipse:</b></span><p>Eclipse 是一个开放源代码的、基于Java的可扩展开发平台。就其本身而言，它只是一个框架和一组服务，用于通过插件组件构建开发环境。幸运的是，Eclipse 附带了一个标准的插件集，包括Java开发工具（Java Development Kit，JDK）。Eclipse是著名的跨平台的自由集成开发环境（IDE）。最初主要用来Java语言开发，通过安装不同的插件Eclipse可以支持不同的计算机语言，比如C++和Python等开发工具。Eclipse的本身只是一个框架平台，但是众多插件的支持使得Eclipse拥有其他功能相对固定的IDE软件很难具有的灵活性。许多软件开发商以Eclipse为框架开发自己的IDE。</p></li>
+        <li> <i class="iconfont icon-icons-intellij_idea"></i>&nbsp;&nbsp;<span><b>Intellij IDEA:</b></span><p>IDEA 全称IntelliJ IDEA，是用于java语言开发的集成环境（也可用于其他语言），IntelliJ在业界被公认为最好的java开发工具之一，尤其在智能代码助手、代码自动提示、重构、J2EE支持、Ant、JUnit、CVS整合、代码审查、 创新的GUI设计等方面的功能可以说是超常的。IDEA是JetBrains公司的产品，这家公司总部位于捷克共和国的首都布拉格，开发人员以严谨著称的东欧程序员为主</p> </li>
+        <li><i class="iconfont icon-VisualStudio"></i>&nbsp;&nbsp;<span><b>VisualStudio:</b></span><p>Microsoft Visual Studio是VS的全称。VS是美国微软公司的开发工具包系列产品。VS是一个基本完整的开发工具集，它包括了整个软件生命周期中所需要的大部分工具，如UML工具、代码管控工具、集成开发环境(IDE)等等。所写的目标代码适用于微软支持的所有平台，包括Microsoft Windows、Windows Mobile、Windows CE、.NET Framework、.Net Core、.NET Compact Framework和Microsoft Silverlight 及Windows Phone。</p></li>
+        <li> <i class="iconfont icon-eclipse1"></i>&nbsp;&nbsp;<span><b>MyEclipse:</b></span><p>MyEclipse 是一个十分优秀的用于开发Java, J2EE的 Eclipse 插件集合，MyEclipse的功能非常强大，支持也十分广泛，尤其是对各种开源产品的支持十分不错。MyEclipse可以支持Java Servlet，AJAX，JSP，JSF，Struts，Spring，Hibernate，EJB3，JDBC数据库链接工具等多项功能。可以说MyEclipse是几乎囊括了目前所有主流开源产品的专属eclipse开发工具</p></li>
+        <li><i class="iconfont icon-notepad_delete"></i>&nbsp;&nbsp;<span><b>Notepad++:</b></span><p>Notepad++是 Windows操作系统下的一套文本编辑器(软件版权许可证: GPL)，有完整的中文化接口及支持多国语言编写的功能(UTF8技术)。支持的文件类型： C、C++、Java、C#、XML、HTML、PHP、CSS、makefile、ASCII艺术(.nfo)、doxygen、ini文件、批处理文件、Javascript、ASP、VB、VBS、SQL、Objective-C、Pascal、Perl、Python、LuaTeX、TCL汇编言、Ruby、Lisp、Scheme、Properties、DiffSmalltalk</p></li>
+        <li><i class="iconfont icon-jishiben"></i>&nbsp;&nbsp;<span><b>记事本:</b></span><p>记事本，在日常生活中指的是用来记录各类事情的小册子。 在windows操作系统中，记事本是一个小的应用程序，采用一个简单的文本编辑器进行文字信息的记录和存储。自从1985年发布的Windows 1.0开始，所有的Microsoft Windows版本都内置这个软件。</p></li>
+    </ul>
+</div>
+
+
+<script type="text/javascript">
+    var leader=document.getElementById("header");
+    window.onscroll=function (e) {
+        var e=
+        var scroll=document.documentElement.scrollTop;
+        console.log(scroll);
+        if(scroll>50){
+            leader.className="active";
+        }else {
+            leader.className="";
+        }
+    };
+    /*鼠标特效 */
+    /*这个方法用来随机一个十六进制颜色代码，让每一次点击浮动文字的颜色不同*/
+   /* function co() {
+        var colorElements = "0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f";
+        var colorArray = colorElements.split(",");
+        var color = "#";
+        for (var i = 0; i < 6; i++) {
+            color += colorArray[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+    var a_idx = 0;
+
+    jQuery(document).ready(function($) {
+        initAllBlogType();
+        $("body").click(function(e) {
+            /!*这个数组中的每一个字符是你要浮动显示的词或句子，每次点击鼠标后按顺序出现*!/
+            var a = new Array("Hello基佬", "你再点", "你继续点", "你有本事接着点", "有种你还点", "快别他妈点了", "好好看文章不行吗");
+            var $i = $("<span/>").text(a[a_idx]);
+            a_idx = (a_idx + 1) % a.length;
+            var x = e.pageX,
+                y = e.pageY;
+            $i.css({
+                "z-index" : 999999,
+                "top" : y - 20,
+                "left" : x,
+                "position" : "absolute",
+                "font-weight" : "bold",
+                "color" : co()
+            });
+            $("body").append($i);
+            $i.animate({
+                    "top" : y - 180,
+                    "opacity" : 0
+                },
+                1500,
+                function() {
+                    $i.remove();
+                });
+        });
+    });
+
+*/
+</script>
+</body>
+</html>

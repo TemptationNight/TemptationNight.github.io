@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../image/login_log.jpg");
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+    background-attachment: fixed;"
+}
+#login{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: rgba(255,255,255,0.7);
+    margin-left: 750px;
+    margin-top: 150px;
+    border: 1px solid white;
+}
+#login .form div {
+    /* opacity:0.3;*/
+    height: 40px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: none;
+}
+#login .form .div2{
+    margin-top: 10px;
+}
+#login .form .input1,.input2{
+    float: left;
+    height: 40px;
+    width: 160px;
+    border: none;
+}
+#login .form span{
+    float: right;
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+#login .input3{
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 16px;
+    height: 40px;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    border: none;
+}
+#login .input3:active{
+    background-color: darkgray;
+}
+#login .footer{
+    line-height: 40px;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+}
+#login .footer .a1{
+    color: red;
+    display: block;
+    float: left;
+}
+#login .footer .a2{
+    color: red;
+    display: block;
+    float: right;
+}
+
+#home{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    margin-top: 350px;
+    margin-left: 500px;
+}
+
+#home span{
+    color: dimgrey;
+}
+
+#home a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    content: attr(title);
+}
+
+#home a:hover{
+    color: red;
+}
+
+
