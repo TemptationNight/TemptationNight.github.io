@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="../css/iconfont_about.css">
 
 </head>
-<body>
+<body >
+
+
 <div id="header">
     <div class="center">
         <div class="center_left">
@@ -28,56 +30,57 @@
         </div>
     </div>
 </div>
+<div id="body_out">
+    <div id="myself">
+        <ul class="project">
+            <li class="first"><i class="iconfont icon-xingming"></i>我的名字叫Tom，目前就读于成都大学，软件工程专业，目前大二</li>
+            <li><i class="iconfont icon-xingbie-nan"></i>关于我的性别，我是一个不折不扣的直男</li>
+            <li><i class="iconfont icon-lanqiu"></i>以前的我喜欢打篮球，现在的我更喜欢看篮球比赛</li>
+            <li><i class="iconfont icon-icon-"></i>关于音乐，没有音乐细胞的我却喜欢随时带个耳机听些莫名其妙的东西</li>
+            <li><i class="iconfont icon-meishi"></i>美食对于我来说，我从来都是没有任何抵抗力的</li>
+            <li><i class="iconfont icon-zhaopian"></i>关于我的照片，请耐心往下看</li>
+        </ul>
+    </div>
 
-<div id="myself">
-    <ul class="project">
-        <li class="first"><i class="iconfont icon-xingming"></i></li>
-        <li><i class="iconfont icon-xingbie-nan"></i></li>
-        <li><i class="iconfont icon-lanqiu"></i></li>
-        <li><i class="iconfont icon-icon-"></i></li>
-        <li ><i class="iconfont icon-meishi"></i></li>
-        <li ><i class="iconfont icon-zhaopian"></i></li>
-    </ul>
-</div>
-
-<div id="show" >
-       <ul>
-           <li onclick="picture()">何袁辉</li>
-           <li onclick="picture1()">男</li>
-           <li onclick="picture2()">运动</li>
-           <li onclick="picture3()">音乐</li>
-           <li onclick="picture4()">美食</li>
-           <li onclick="picture5()">照片</li>
-         </ul>
-    <div class="picture" >
-        <img  id="pic" src="../image/myeclipse.png" alt="" onclick="picture()">
+    <div id="show">
+        <ul>
+            <li onclick="picture()">何袁辉</li>
+            <li onclick="picture1()">男</li>
+            <li onclick="picture2()">运动</li>
+            <li onclick="picture3()">音乐</li>
+            <li onclick="picture4()">美食</li>
+            <li onclick="picture5()">照片</li>
+        </ul>
+        <div class="picture">
+            <img id="pic" src="../image/5.jpg" alt="" onclick="picture()">
+        </div>
     </div>
 </div>
 
 <script type="text/javascript">
     function picture() {
         var picture=document.getElementById("pic");
-        picture.src="../image/vs.jpg";
+        picture.src="../image/1.jpg";
     }
     function picture1() {
         var picture=document.getElementById("pic");
-        picture.src="../image/idea2018.png";
+        picture.src="../image/2.jpg";
     }
     function picture2() {
         var picture=document.getElementById("pic");
-        picture.src="../image/technol_introduction.jpg";
+        picture.src="../image/3.jpg";
     }
     function picture3() {
         var picture=document.getElementById("pic");
-        picture.src="../image/jishiben.jpg";
+        picture.src="../image/4.jpg";
     }
     function picture4() {
         var picture=document.getElementById("pic");
-        picture.src="../image/about.jpg";
+        picture.src="../image/5.jpg";
     }
     function picture5() {
         var picture=document.getElementById("pic");
-        picture.src="../image/idea.png";
+        picture.src="../image/6.jpg";
     }
 </script>
 </body>

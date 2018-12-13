@@ -1,0 +1,53 @@
+/*body{
+    background-image: url("../image/login_log.jpg");
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}*/
+
+#body_out{
+    width: 996px;
+    height: 1200px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+
+#count{
+    width: 1200px;
+    /*height: 1000px;*/
+  /*  border: 1px solid red;*/
+
+    margin: 0 auto;
+
+}
+
+#count .choose li{
+
+    padding: 10px;
+
+  /*  line-height: 200px;*/
+    margin: 20px auto;
+    display: block;
+    height: 200px;
+    width: 996px;
+    background-color: whitesmoke;
+   /* border: 1px solid black;*/
+    border-radius: 10px;
+
+}
+#count .choose li i{
+    height: 150px;
+    width: 150px;
+    display: block;
+    float: left;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+#count .choose li span{
+    display: block;
+    height: 150px;
+    width: 600px;
+    float: left;
+    margin-top: 60px;
+}
