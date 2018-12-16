@@ -1,6 +1,12 @@
 /*#header .center .center_right{
     border-bottom: 2px solid blue;
 }*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 
 body {
     background-image: url("../image/about.jpg");
@@ -111,6 +117,7 @@ body {
     height: 100%;
     width: 100%;
 }
+
 
 /*
 

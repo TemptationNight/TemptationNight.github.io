@@ -51,3 +51,8 @@
     float: left;
     margin-top: 60px;
 }
+#mycanvas{
+    height: 10px;
+    width: 100%;
+    margin-left: 0;
+}

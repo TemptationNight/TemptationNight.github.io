@@ -167,3 +167,9 @@
     border: 5px solid blue;
     border-radius: 3%;
 }
+
+#mycanvas{
+    height: 10px;
+    width: 100%;
+    margin-left: 0;
+}

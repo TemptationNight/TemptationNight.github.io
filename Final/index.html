@@ -1,43 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 
-</div>
-<div class="picture">
-    <div class="picture1"><a href="#"></a></div>
-    <div class="picture2"><a href=""></a></div>
-    <div class="picture3"><a href="#"></a></div>
-    <div class="picture4"><a href="#"></a></div>
-    <div class="picture5"><a href="#"></a></div>
-</div>
-<div class="null"></div>
-<div class="footer">&copy;Temptation.夜</div>
-
-</body>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/iconfont_index.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/iconfont1.css">
+    <link rel="stylesheet" href="css/java.css">
 </head>
 <body>
-<div class="head">
-    <p>java之美</p>
-    <div class="head_picture"></div>
+<canvas id="mycanvas"></canvas>
+<div id="header">
+    <div class="center">
+        <div class="center_left">
+            <ul class="list">
+                <li class="technology"><a href="index.html"><i class="iconfont icon-home"> </i>
+                    <p>home</p></a></li>
+                <li><a href="html/java_sourse.html"><i class="iconfont icon-laiyuan "> </i>
+                    <p>origin</p></a></li>
+                <li><a href="html/java_development.html"><i class="iconfont icon-fazhanlicheng "> </i>
+                    <p>develop</p></a></li>
+                <li><a href="html/java_editor.html"><i class="iconfont icon-insert_tag_field"> </i>
+                    <p>editor</p></a></li>
+                <li><a href="html/java_technology.html"><i class="iconfont icon-yunjishu "></i>
+                    <p>science</p></a></li>
+                <li><a href="html/java_study.html"><i class="iconfont icon-icon"> </i>
+                    <p>study</p></a></li>
+            </ul>
+        </div>
+        <div class="center_right">
+            <a href="html/technology_introduction.html"><i class="iconfont icon-yonghu"></i>
+                <p>about</p></a>
+        </div>
+    </div>
 </div>
-<div class="chose" id="list_choose">
-    <ul class="list">
-        <li class="li">首页</li>
-        <li><a href="html/about.html">关于我</a></li>
-        <li><a href="html/technology_introduction.html">技术介绍</a></li>
-        <li><a href="html/java_sourse.html">Java起源</a></li>
-        <li><a href="html/java_development.html">Java发展</a></li>
-        <li><a href="html/java_technology.html">Java技术</a></li>
-        <li><a href="html/java_editor.html">Java编辑器</a></li>
-        <li><a href="#">Java美图</a></li>
-        <li><a href="#">学习路线</a></li>
-        <li><a href="http://www.iconfont.cn/">
-            <span class="span1"><i class="iconfont icon-github"></i></span>
-            <span class="span2"><i class="iconfont icon-webstorm"></i></span>
-        </a></li>
-    </ul>
+<div id="search">
+    <div class="logo">
+        <i class="iconfont_logo icon-weibiaoti-"><!--&#xf1d7;--></i>
+    </div>
+    <form action="" class="form">
+        <input type="text" placeholder="搜索">
+        <span><a href=""><i class="iconfont icon-sousuo1"></i></a></span>
+    </form>
+</div>
+
+<div id="pic">
+    <img src="" alt="">
+</div>
+<div id="body1">
+    <div class="body_left">
+        <ul>
+            <li class="first">
+                <div class="pict">
+                    <img src="image/java1.png" alt=""><br>
+                    <img src="image/java7.png" alt=""><br>
+                </div>
+
+                <div class="text">
+                    <span>初识&nbsp;</span><br><br>
+                    &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;站长与Java的初识是在大一的上学期，大概在10月份的时候认识了这一门语言，当时的我还是一个青涩的大一小萌新，从来每想过会与Java有这样的交集。
+                </div>
+
+            </li>
+            <li>
+                <div class="pict">
+                    <img src="image/java2.png" alt=""><br>
+                    <img src="image/dayi2.png" alt="">
+                </div>
+                <div class="text">
+                    <span>求知&nbsp;</span><br><br>
+                    &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;大一下学期，站长正式开始学习Java，选择的时机不是很好，我把时间选在了期末复习，别人都在期末复习了，我还在学习新的知识，暑假，我继续留校学习，学完了Java基础。回家玩了15天
+                </div>
+            </li>
+            <li>
+                <div class="pict">
+                    <img src="image/java3.png" alt=""><br>
+                    <img src="image/daer1.png" alt="">
+                </div>
+                <div class="text last">
+                    <span>深究&nbsp;</span><br><br>
+                    &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;现在大二的站长，还在继续学习Java，我想，现在还不是我深究的时候，或许等到我大三的时候，我才有能力深究Java。
+                </div>
+            </li>
+            <li>
+                <div class="pict">
+                    <img src="image/java4.png" alt=""><br>
+                    <img src="image/dayi2.png" alt="">
+                </div>
+                <div class="text">
+                    <span>溯源&nbsp;</span><br><br>
+                    &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;看源码，这是一个架构师必备的知识技能，在后面的学习旅途中，那将是我的前进目标。
+                </div>
+
+            </li>
+        </ul>
+    </div>
+    <div class="body_right">
+        <span id="weixin1" onclick="dashang()">打赏站长</span>
+        <a href="https://temptationnight.github.io/"> <span>git开源地址</span></a>
+        <span id="weixin2" onclick="guanzhu()">关注微信公众号</span>
+        友情连接：<br><br>
+        &nbsp;<a href="http://www.baidu.com"><i class="iconfont  icon-baidu"></i>百度</a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.oracle.com"><i class="iconfont icon-weibiaoti-"></i>JDK官网</a>&nbsp;&nbsp;&nbsp;
+        <a href="https://github.com/"><i class="iconfont icon-github"></i>github</a>
+    </div>
+</div>
+<div id="footer">
+    &copy;成都大学 Heyuanhui
+</div>
+<script type="text/javascript" src="js/jianbian.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
 </html>
